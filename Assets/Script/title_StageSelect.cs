@@ -17,8 +17,6 @@ public class title_StageSelect : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene("StageSelect");
-
         }
-
     }
 }
