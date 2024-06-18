@@ -50,10 +50,10 @@ public class HidariHidari : MonoBehaviour
             Instantiate(hidaripurehabu, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            Instantiate(seishigazou, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
+        //else if (Input.GetKeyDown(KeyCode.DownArrow))
+        //{
+        //    Instantiate(seishigazou, transform.position, transform.rotation);
+        //    Destroy(gameObject);
+        //}
     }
 }

@@ -10,7 +10,7 @@ public class feido : MonoBehaviour
 
     private void Start()
     {
-        
+            StartCoroutine(FadeOutAndLoadScene());
     }
 
     public IEnumerator FadeOutAndLoadScene()
@@ -37,13 +37,13 @@ public class feido : MonoBehaviour
     {
         Invoke("fadeStart", 1.0f);
     }
-    void fadeStart()
-    {
-        StartCoroutine(FadeOutAndLoadScene());
-    }
+    //void fadeStart()
+    //{
+    //    StartCoroutine(FadeOutAndLoadScene());
+    //}
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag=="aaa")
+        if (collision.gameObject.tag == "aaa")
         {
             Destroy(collision.gameObject);
         }

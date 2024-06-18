@@ -49,10 +49,10 @@ public class migimigi : MonoBehaviour
             Instantiate(migipurehabu, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            Instantiate(seishi, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
+        //else if (Input.GetKeyDown(KeyCode.DownArrow))
+        //{
+        //    Instantiate(seishi, transform.position, transform.rotation);
+        //    Destroy(gameObject);
+        //}
     }
 }

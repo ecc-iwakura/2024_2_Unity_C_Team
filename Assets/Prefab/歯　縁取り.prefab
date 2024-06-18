@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6684923541574179490}
   m_Layer: 0
   m_Name: "\u6B6F\u3000\u7E01\u53D6\u308A"
-  m_TagString: Untagged
+  m_TagString: Gomi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e19c1bbd4e418274583eea8c087ca1e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0277251, y: 0.029454663}
+  m_Offset: {x: -0.06303823, y: -0.01442084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9039967, y: 0.89106953}
+  m_Size: {x: 1.103374, y: 1.786142}
   m_EdgeRadius: 0
 --- !u!114 &6684923541574179490
 MonoBehaviour:

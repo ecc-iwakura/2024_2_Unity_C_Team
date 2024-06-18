@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8470501928122990386}
   - component: {fileID: 8470501928122990413}
   - component: {fileID: -3065082887980736978}
-  - component: {fileID: -1534390793832293234}
+  - component: {fileID: 7094556463107662742}
   m_Layer: 0
   m_Name: "\u30D9\u30EB\u30C8\u5DE6\uFF11"
   m_TagString: Untagged
@@ -123,7 +123,7 @@ MonoBehaviour:
   speed: -5
   hidaripurehabu: {fileID: 5532373298119990978, guid: e990a280a2d6cb44f84b85f5e932a5fe, type: 3}
   seishigazou: {fileID: 290892227681013862, guid: bc7063006bdb3ee48826b4ed9695980b, type: 3}
---- !u!61 &-1534390793832293234
+--- !u!61 &7094556463107662742
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.015118122, y: 0.15119016}
+  m_Offset: {x: -0.09295583, y: 0.109338045}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -147,5 +147,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.4507284, y: 1.5900223}
+  m_Size: {x: 7.005078, y: 1.0861132}
   m_EdgeRadius: 0
