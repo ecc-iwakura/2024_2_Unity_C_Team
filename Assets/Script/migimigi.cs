@@ -44,7 +44,7 @@ public class migimigi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             Instantiate(migipurehabu, transform.position, transform.rotation);
             Destroy(gameObject);

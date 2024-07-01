@@ -45,15 +45,15 @@ public class HidariHidari : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             Instantiate(hidaripurehabu, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        //else if (Input.GetKeyDown(KeyCode.DownArrow))
-        //{
-        //    Instantiate(seishigazou, transform.position, transform.rotation);
-        //    Destroy(gameObject);
-        //}
+    //    else if (Input.GetKeyDown(KeyCode.DownArrow))
+    //    {
+    //        Instantiate(seishigazou, transform.position, transform.rotation);
+    //        Destroy(gameObject);
+    //    }
     }
 }
