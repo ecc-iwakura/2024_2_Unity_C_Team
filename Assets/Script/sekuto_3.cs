@@ -1,27 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class serekuto_play1 : MonoBehaviour
+public class sekuto_3 : MonoBehaviour
 {
     private int state = 0;
     public float senitime = 2.5f;
     private float timer = 0;
-    //public string LoadScenename;
+    public string LoadScenename;
     private AudioSource Audio;
-
     // Start is called before the first frame update
     void Start()
     {
+        state = 0;
         Audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
         switch (state)
         {
             case 0:
@@ -39,16 +37,13 @@ public class serekuto_play1 : MonoBehaviour
                 }
                 break;
             case 3:
-                SceneManager.LoadScene("1-1");
+                SceneManager.LoadScene(LoadScenename);
                 break;
         }
     }
-
     public void OnClickEvent()
     {
-       
         state = 2;
         Audio.Play();
     }
-
 }

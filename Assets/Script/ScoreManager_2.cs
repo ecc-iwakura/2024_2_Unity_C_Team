@@ -9,8 +9,8 @@ public class ScoreManager_2 : MonoBehaviour
     public GameObject score_object = null; // Textオブジェクト
     public int score_num = 0; // スコア変数
     public int misu_num = 0;
-    public FadeSceneLoader fadeSceneLoader;
-    public FadeSceneLoader_2 fadeSceneLoader_2;
+    public FadeSceneLoader_2 fadeSceneLoader;
+    public FadeScenceLoder_1_2 FadeScenceLoder_1_2;
     public GameObject burizzi9;
     public GameObject burizzi8;
     public GameObject burizzi7;
@@ -150,7 +150,7 @@ public class ScoreManager_2 : MonoBehaviour
         }
         if (misu_num > 29)
         {
-            fadeSceneLoader_2.CallCoroutine();
+            FadeScenceLoder_1_2.CallCoroutine();
 
         }
     }

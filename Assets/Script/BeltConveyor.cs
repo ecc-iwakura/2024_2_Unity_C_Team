@@ -51,13 +51,13 @@ public class BeltConveyor : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             Instantiate(hidari, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         { 
             Instantiate(migi, transform.position, transform.rotation);
             Destroy(gameObject);
