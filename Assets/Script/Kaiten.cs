@@ -45,6 +45,18 @@ public class Kaiten : MonoBehaviour
             worldAngle.z = Anglez;
             transform.eulerAngles = worldAngle;
         }
+        if(Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            // transformを取得
+            Transform myTransform = this.transform;
+
+            // ローカル座標を基準に、回転を取得
+            Vector3 localAngle = myTransform.localEulerAngles;
+            localAngle.x = 0.0f; // ローカル座標を基準にした、x軸を軸にした回転角度
+            localAngle.y = 0.0f; // ローカル座標を基準にした、y軸を軸にした回転角度
+            localAngle.z = 0.0f; // ローカル座標を基準にした、z軸を軸にした回転角度
+            myTransform.localEulerAngles = localAngle; // 回転角度を設定
+        }
 
 
         //// transformを取得
@@ -52,9 +64,9 @@ public class Kaiten : MonoBehaviour
 
         //// ローカル座標を基準に、回転を取得
         //Vector3 localAngle = myTransform.localEulerAngles;
-        // localAngle.x=0.0f; // ローカル座標を基準にした、x軸を軸にした回転角度
-        // localAngle.y=0.0f; // ローカル座標を基準にした、y軸を軸にした回転角度
-        // localAngle.z=30.0f; // ローカル座標を基準にした、z軸を軸にした回転角度
+        //localAngle.x = 0.0f; // ローカル座標を基準にした、x軸を軸にした回転角度
+        //localAngle.y = 0.0f; // ローカル座標を基準にした、y軸を軸にした回転角度
+        //localAngle.z = 30.0f; // ローカル座標を基準にした、z軸を軸にした回転角度
         //myTransform.localEulerAngles = localAngle; // 回転角度を設定
     }
 }
